@@ -32,8 +32,7 @@ namespace UnoSys.Api
         static string dynamicPort = null;
         static string dynamicApiPort = null;
         private const int WORLD_COMPUTER_BASE_PORT = 49928;
-        static public string WCORapydWalletId = "ewallet_3fdfba14cbad5dffb993402bfdc4d221";  // %TODO%
-        static public string CurrentBeneficiary = "beneficiary_99bf17493e67bbfbce50caac09e0c6f7"; // %TODO%
+        static public string WCORapydWalletId = "<WCO Rapyd Treasury Wallet Id place holder>";  // %TODO% - retrieve this from an encrypted file off of the World Computer vDrive
         private HttpClientHandler clientHandler = null;
         #endregion
 
